@@ -7,8 +7,8 @@ import "os"
 var db *sql.DB
 
 func main() {
-  mysql_server_host := os.Args[3]
-  mysql_server_port := os.Args[4]
+  mysql_server_host := os.Args[1]
+  mysql_server_port := os.Args[2]
 
   var err error
 
